@@ -1,0 +1,378 @@
+
+
+body {
+    background: #FFFFFF;
+}
+#container {
+    width: 1024px;
+    margin: 50px auto;
+    padding: 0px;
+    box-shadow: 0px 0px 67px -3px rgba(0, 0, 0, 2);
+    background-color: #fff;
+}
+nav {
+    background-color: #09144A;
+    height: 62px;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 62px;
+}
+nav ul li {
+    float: left;
+    display: block;
+    height: 62px;
+    border-left: 1px solid #6C78B3;
+}
+nav ul li:first-child {
+    border-left: none;
+}
+nav ul li:last-child {
+    border-right: 1px solid #6C78B3;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    background-color: #09144A;
+    color: white;
+    padding: 20px 20px 20px;
+}
+nav ul li a:hover {
+    background-color:#F1F1F1;
+    text-decoration: none;
+    color: #09144A;
+   
+}
+#carouselForFront {
+    margin-top: 0px;
+    height: 280px;
+}
+#carouselForFront img {
+    width: 100%;
+    height: 280px;
+}
+#pageContent {
+    height: 550;
+    margin-top: 0px;
+}
+#pageFooter {
+    height: 200px;
+    margin-top: 0px;
+     background: -webkit-linear-gradient(left, #09144A, #1C6AB7); 
+    background: -o-linear-gradient(right, #09144A, #1C6AB7); 
+    background: -moz-linear-gradient(right, #09144A, #1C6AB7);
+    background: linear-gradient(to right, #09144A, #1C6AB7);     
+    color: white;
+}
+#sidebar {
+    width: 300px;
+    float: left;
+    background-color:#E6E7E9;
+}
+#mainContent
+{
+    background-color: white;
+    margin-left:300px;
+    width: 724px;
+}
+
+#mainContentWel
+{
+    width:1024px;
+    margin:0px auto;
+    padding:0px;
+    background-color: white;
+    border:1px solid black;
+}
+
+#mainContent p.titleWord , #mainContentWel  p.titleWord
+{
+	font-size: 24px;
+	font-weight: 700;
+	color:#09144A;
+	margin:0px;
+	padding:0px;
+	margin-top:0px;
+	padding-top:20px;
+	padding-bottom:5px;
+	padding-left:24px;
+
+}
+
+#mainContent p.titleWordSecond
+{
+    font-size: 18px;
+    font-weight: 600;
+    color:#09144A;
+    margin:0px;
+    padding:0px;
+    margin-top:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:24px;
+}
+
+
+
+.bookLink a
+{
+    margin-left:265px;
+    padding:8px;
+    background-color: #24A729;
+    color:white;
+    text-decoration: none;
+    
+    border:4px;
+border-radius: 20px;
+}
+
+#mainContentWel  p.titleWord .bookLink a{
+    margin-left:230px;
+}
+
+
+#mainContent p.commonDescription , #mainContentWel  p.commonDescription{
+	color:#666;
+	font-size: 16px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:24px;
+	padding-right: 10px;
+	word-wrap: break-word;
+}
+
+#mainContent ul.rmtype, ul.rmGallery {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+}
+
+
+#mainContent ul.rmtype li , ul.rmGallery li {
+    float: left;
+    display: block;
+    height: 380px;
+    border:2px solid #09144A;
+    border-radius: 0px 0px 20px 0px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    width:200px;
+    padding:0px;
+}
+
+
+
+ul.rmGallery li{
+	height:230px;
+	border-radius: 0px;
+}
+
+ul.rmtype li img{
+	padding:0px;
+	width:200px;
+	height:200px;
+}
+
+ul.rmGallery li img{
+	padding:0px;
+	width:200px;
+	height:200px;
+}
+
+
+ul.rmtype li p, ul.rmGallery li p{
+	text-align: center;
+	background-color: #09144A;
+	color:white;
+	margin:0px;
+	padding-top:8px;
+	padding-bottom: 8px;
+	font-weight: 700;
+}
+
+ul.rmGallery li p{
+	padding-top:4px;
+	padding-bottom: 5px;
+}
+
+ul.rmtype li button
+{
+	border-radius: 5px;
+	background-color: #09144A;
+	color:white;
+	margin-left:35px;
+	margin-top:5px;
+	padding:8px;
+
+}
+
+ul.rmtype li a.linkbuttonclass
+{
+    border-radius: 5px;
+    background-color: #09144A;
+    color:white;
+    margin-left:35px;
+    margin-top:5px;
+    padding:8px;
+    text-decoration: none;
+
+}
+
+.formDiv
+{
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.formDiv .formbutton
+{
+    border-radius: 5px;
+    background-color: #09144A;
+    color:white;
+    margin-left:35px;
+    margin-top:5px;
+    padding:8px;
+
+}
+
+#mainContent ul.rmtype li:first-child, ul.rmGallery li:first-child{
+    margin-left: 24px;
+}
+
+#mainContent ul.rmtype li:nth-child(4),  ul.rmGallery li:nth-child(4){
+    margin-left: 24px;
+}
+
+.amenities
+{
+	color: #666;
+	font-size: 16px;
+}
+
+
+
+#header {
+    height: 100px;
+     background: -webkit-linear-gradient(left, #2A48A0, white); 
+    background: -o-linear-gradient(right, #2A48A0, white); 
+    background: -moz-linear-gradient(right, #2A48A0, white);
+    background: linear-gradient(to right, #2A48A0, white); 
+}
+.sidebarr h4 {
+    padding-bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 7px 7px;
+    border-bottom: 1px solid #09144A;
+    background-color: #09144A;
+    text-align: center;
+}
+.sidebarr ul li {
+    background-color: #E6E7E9;
+    margin-bottom: 20px;
+    line-height: 1.9em;
+}
+.sidebarr ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebarr nav {
+    padding-bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 0px 0px;
+    border-bottom: 1px solid #010F42;
+    background-color: #010F42;
+    text-align: left;
+}
+table, th, td, tr {
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+#pageFooter table tr td {
+    text-align: center;
+}
+#pageFooter a, #pageFooter a:visited {
+    text-decoration: none;
+  color: white;
+}
+#pageFooter a:hover {
+    color: silver;
+}
+
+
+
+.popupBox {
+  position: absolute;
+  left: 140px;
+}
+
+.popupCell {
+   background-color: #fffafa;
+}
+
+.popupCell:hover {
+  background-color: #f5ebe9;
+}
+
+.popupItem {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+table #complete-table {
+   padding: 10px;
+   background-color: #DE2D3A;
+   font-family: sans-serif;
+   color:#fff;
+   left:335px;
+   border: none;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.popupBox {
+  position: absolute;
+  left: 295px;
+}
+
+.popupCell {
+   background-color: #A8B4D8; 
+   padding:3px;
+   padding-left:10px; 
+   padding-right:85px;
+   border: none;}
+
+.popupCell:hover {
+  background-color: #fff;
+}
+
+.popupItem {
+  color: #333;
+  text-decoration: none;
+
+}
+
+#auto-row
+{
+    padding:0px;
+}
